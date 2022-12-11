@@ -1,11 +1,13 @@
 
 
-
 public class customerInformation {
 
     private String customerName;
     private int requestedAmountOfSeats;
 
+    public customerInformation(String customerName){
+        this.customerName = customerName;
+    }
 
     public String getCustomerName() {
         return customerName;
